@@ -1,0 +1,70 @@
+/*Personalizacion del index*/
+body{
+    background-color:rgba(222, 230, 240);
+    color:azure;
+    margin: 0%;
+}
+h1{
+    color:azure;
+    background-color:rgba(15, 149, 238, 0.719);
+}
+li{
+    color:rgb(0, 0, 0);
+}
+h2{
+    color:rgb(0, 0, 0);
+}
+/*Personalizacion del Historia*/
+#Informacion{
+    width: 69%;
+    margin: 5%;
+    margin-left: 15%;
+    background-color:rgb(255, 255, 255);
+    border-width: 3px;
+
+}
+.foto{
+    width: 30%;
+    margin: 1.5%;
+    display: inline-block;
+    vertical-align: middle;
+}
+img{
+    width: 100%;
+}
+.texto{
+    width: 60%;
+    margin: 0%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.boton{
+    font-size: 21px;
+    font-family: Arial;
+    width: 5%;
+    padding: 2%;
+    border-width: 1px;
+    color:azure;
+    border-color: rgba(0, 0, 0, 0); 
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    text-shadow: 5px 5px 0px #2f2f2f;
+    background:linear-gradient(rgb(143, 89, 27),rgb(224, 186, 139));
+    text-decoration: none;
+    margin-left: 8%;
+}
+.boton:hover {
+    background:linear-gradient(rgb(216, 196, 172),rgba(83, 52, 17));
+}
+#botones {
+    margin-top: 20px;
+}
+.row{
+    margin-left: 6%;
+}
+.pagination{
+    margin-left: 44%;
+}
