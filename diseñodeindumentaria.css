@@ -7,12 +7,16 @@ body{
 h1{
     color:azure;
     background-color:rgba(15, 149, 238, 0.719);
+    padding-left: 2%;
 }
 li{
     color:rgb(0, 0, 0);
+    padding-left: 1%;
 }
 h2{
     color:rgb(0, 0, 0);
+    padding-left: 1%;
+
 }
 /*Personalizacion del menu */
 #indumentaria{
@@ -48,5 +52,6 @@ img{
     vertical-align: middle;
 }
 .pagination{
-    margin-left: 40%;
+    margin-left: 32%;
+    
 }
